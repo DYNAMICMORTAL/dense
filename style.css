@@ -313,3 +313,138 @@ body{
 .leftnav a{
     text-decoration: none;
 }
+/* Responsive section code ahead*/
+
+
+@media (max-width:  1024px){
+
+}
+@media (max-width:576px){
+    .navbar{
+        background: var(--navbar);
+        height: 100px;
+        width: 100%;
+    }
+    .leftnav p{
+        font-size: 0;
+    }
+    .rightNav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navList{
+        font-size: 1.5em;
+        list-style-type: none;
+        padding-top: 20px;
+        padding-right: 32px;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .dense{
+        font-size: 8em;
+    }
+    .densePara1{
+        font-size: 3.5em;
+    }
+    .secSection{
+        margin-top: 14em;
+    }
+    .secSectionLeft1{
+        font-size: 2.9em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .secSectionLeft2{
+        font-size: 1em;
+        text-align: center;
+        padding-top: 1.6em;
+    }
+    .secSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightSecSection{
+        margin-top: -7.5em;
+    }
+    .secSection{
+        padding-bottom: 10em;
+    }
+    .thirdSection{
+        padding: 0;
+        padding-top: 4.5em;
+        padding-bottom: 4.2em;
+    }
+    .parent {
+        padding-top: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .unitLeft{
+        font-size: 2.5em;
+    }
+    .thirdSectionText{
+        padding-left: 2em;
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+    .fourthSection{
+        padding-top: 6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .firstFourthSection p{
+        font-size: 4em;
+    }
+    .secFourthSection p{
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 1.55em;
+        padding-top: 3.75em;
+        padding-bottom: 2em;
+    }
+    .fifthSection{
+        display: block;
+        padding-top: 7em;
+        padding-bottom: 0;
+    }
+    .leftFive{
+        font-size: 2.9em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-right: 0;
+        /* border-bottom: 2px solid var(--dark); */
+        padding-bottom: 1em;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: -1em;
+        margin-right: 1em; */
+    }
+    .rightFive1{
+        padding-left: 1em;
+        padding-right: 1em;
+        border-bottom: none;
+    }
+    .rightFive2{
+        padding-left: 1em;
+        padding-right: 1em;
+        border-bottom: none;
+    }
+
+}
