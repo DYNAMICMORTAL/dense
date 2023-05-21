@@ -307,3 +307,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.rightSecSection p{
+    user-select: none;
+}
+.leftnav a{
+    text-decoration: none;
+}

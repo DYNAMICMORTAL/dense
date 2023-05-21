@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.ckeditor.com/ckeditor5/37.1.0/classic/ckeditor.js"></script>
+    <script src="index.js"></script>
     <title>Dense</title>
 </head>
 <body>
     <div class="navbar">
         <div class="nav">
             <div class="leftnav">
-                <p class="logo">D<span>ENS</span>E</p>
+                <a href="http://dynamicmortal.github.io/dense"><p class="logo">D<span>ENS</span>E</p></a>
             </div>
             <div class="rightnav">
                 <ul class="navList">
@@ -19,6 +21,7 @@
                     <li class="navItem"><a href="#">Topics</a></li>
                     <li class="navItem"><a href="#">About</a></li>
                     <li class="navItem"><a href="#">Contact</a></li>
+                    <li class="navItem"><a href="#startnow">Start Now</a></li>
                 </ul>
             </div>
         </div>
@@ -130,7 +133,7 @@
             </div>
         </div>
     </section>
-    <section class="fourthSection">
+    <section class="fourthSection" id="startnow">
         <div class="firstFourthSection">
             <p>Create your space with Dense. Your own world where you leverage your thinking.</p>
         </div>
@@ -138,7 +141,7 @@
             <p>First article is door to open sea of knowledge. Create your audience today. Its free and easy with Dense. Join us to create your world and have audience act as characters on your stage. </p>
         </div>
         <div class="thirdFourthSection">
-            <button class="css-button-retro--blue">Write on Dense</button>
+            <button class="css-button-retro--blue" id="writeNow">Write on Dense</button>
         </div>
     </section>
     <section class="fifthSection">
@@ -181,5 +184,10 @@
             </div>
         </div>
     </section>
+    <script>
+        document.getElementById("writeNow").onclick = function () {
+    location.href = "https://dynamicmortal.github.io/dense/blog.html";
+};
+    </script>
 </body>
 </html>
