@@ -1,0 +1,30 @@
+@import url(utlities.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-smooth: antialiased;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    font-size: 2em;
+    user-select: none;
+}
+.mainNav{
+    padding-top: 1.5em;
+    padding-left: 4em;
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstSection{
+    padding-top: 4em;
+}
+.garbage {
+    padding-top: 2em;
+}
