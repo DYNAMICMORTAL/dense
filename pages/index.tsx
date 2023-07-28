@@ -42,7 +42,7 @@ const Home: React.FC = () => {
     return (
       <>
       <div>
-        Welcome {user.name}! <a href="/api/auth/logout">Logout</a>
+        Welcome {user.name}! <a href="https://dense-app.vercel.app/api/auth/logout">Logout</a>
       </div>
       <div className="container max-w-4x1">
         <Header />
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
                 <a href="#startnow">Start Now</a>
               </li>
               <li className={styles.navItem}>
-                <a href="/api/auth/login">Login</a>
+                <a href="https://dense-app.vercel.app/api/auth/login">Login</a>
               </li>
             </ul>
           </div>
