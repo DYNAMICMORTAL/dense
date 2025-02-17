@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^3.0.0",
+    "@auth0/nextjs-auth0": "^4.0.0",
     "@editorjs/editorjs": "^2.27.2",
     "@editorjs/embed": "^2.5.3",
     "@editorjs/header": "^2.7.0",
